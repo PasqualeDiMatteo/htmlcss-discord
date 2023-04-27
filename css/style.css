@@ -15,19 +15,19 @@
 
 body{
     font-family: sans-serif;
-  }
-
-/* header */
-
-header{
-    background-color: rgb(49, 97, 224);
-    padding: 20px;
 }
 
 .container{
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
+}
+
+/* header */
+
+header{
+    background-color: rgb(49, 97, 224);
+    padding: 20px;
 }
 
 .navbar{
@@ -78,8 +78,12 @@ header{
     background-size:cover;
 }
 
+.grid-witw{
+    background-color: white;
+}
+
 .grid-grey{
-    background-color: grey;
+    background-color: rgb(246, 246, 246);
 }
 
 
@@ -89,12 +93,6 @@ header{
     min-height: 520px;
     margin: 0 auto;
     text-align: center;
-}
-
-h1{
-    font-size: 64px;
-    color: white;
-    padding: 50px;
 }
 
 .card-jumbo p{
@@ -117,10 +115,6 @@ h1{
     margin-right: 30px;
 }
 
-.arrow{
-    font-size: 25px;
-}
-
 .button-open-browser{
     background-color: black ;
     color: white;
@@ -138,17 +132,12 @@ h1{
     padding: 35px 70px;
 }
 
-h2{
-    font-size: 52px;
-    margin-bottom: 30px;
-}
-
 .card-small p{
     font-size: 25px;
     line-height: 30px;
 }
 
-.card-green{
+.card-full{
     min-height: var(--wid-xl);
     background-color: green;
     flex-basis: 100%;
@@ -217,6 +206,29 @@ footer{
 }
 
 .ma-200{
-    margin-top: var(--ma-2xl)
+    margin:200px 0;
 
+}
+
+.wave{
+    display: block;
+}
+
+.wave-reverse{
+    rotate: 0.5turn;
+}
+
+.arrow{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 64px;
+    color: white;
+    padding: 50px;
 }
