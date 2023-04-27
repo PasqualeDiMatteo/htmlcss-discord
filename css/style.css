@@ -12,6 +12,10 @@
     --pa-xl:50px;
 }
 
+body{
+    font-family: sans-serif;
+  }
+
 /* header */
 
 header{
@@ -62,14 +66,15 @@ header{
     background-color: white;
     text-decoration: none;
     font-size: 22px;
-    padding: 10px;
+    padding: 5px 20px;
     border-radius: 25px;
 }
 
 /* main */
 
-.grid-blue{
-    background-color: blue;
+.grid-jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
 }
 
 .grid-grey{
@@ -78,13 +83,48 @@ header{
 
 
 /* card */
-.card-violet{
+.card-jumbo{
     max-width: var(--wid-xl);
-    min-height: 400px;
+    min-height: 520px;
     margin: 0 auto;
-    background-color: rgb(238, 130, 238);
-    
+    text-align: center;
 }
+
+h1{
+    font-size: 64px;
+    color: white;
+    padding: 50px;
+}
+
+.card-jumbo p{
+    color: white;
+    font-size: 21px;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+
+.card-jumbo a{
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding:15px;
+}
+
+.button-download{
+    background-color: white ;
+    color: rgb(35, 39, 42);
+    margin-right: 30px;
+}
+
+.arrow{
+    font-size: 25px;
+}
+
+.button-open-browser{
+    background-color: black ;
+    color: white;
+}
+
 
 .card-dodgerblue{
     min-height: var(--wid-m);
