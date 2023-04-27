@@ -179,7 +179,7 @@ justify-content: center;
     border-bottom: 1px solid rgb(114, 137, 218);
 }
 
-.card-seagreen{
+.card-column{
     min-height: var(--wid-l);
     flex-basis: 70%;
     display: flex;
