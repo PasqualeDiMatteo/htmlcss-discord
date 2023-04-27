@@ -15,36 +15,55 @@
 /* header */
 
 header{
-    background-color: skyblue;
+    background-color: rgb(49, 97, 224);
     padding: 20px;
 }
 
 .container{
-    max-width: 1080px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
 }
 
 .navbar{
-    background-color: orange;
     font-size: 25px;
 }
 
 .logo{
-    flex-basis: 25%;
+    flex-basis: 20%;
     padding: var(--pa-xs);
 }
 
+.logo img{
+    vertical-align: middle;
+}
+
 .nav{
-    flex-basis: 50%;
+    flex-basis: 60%;
     text-align: center;
     padding: var(--pa-xs);
 }
 
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 25px;
+}
+
 .login{
-    flex-basis: 25%;
+    flex-basis: 20%;
     text-align: right;
     padding: var(--pa-xs);
+}
+
+.login a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 /* main */
