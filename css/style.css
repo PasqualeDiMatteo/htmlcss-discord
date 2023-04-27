@@ -8,7 +8,7 @@
     --pa-xs:5px;
     --wid-m:500px;
     --wid-l:600px;
-    --wid-xl:800px;
+    --wid-xl:1300px;
     --pa-xl:50px;
     --ma-2xl:200px;
 }
@@ -139,8 +139,37 @@ header{
 
 .card-full{
     min-height: var(--wid-xl);
-    background-color: green;
     flex-basis: 100%;
+    text-align: center;
+}
+
+.card-full-text{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 100px;
+    padding: 0 100px;
+}
+
+.video-calls{
+    width: 1300px;
+}
+
+.container-stars{
+width: 1400px;
+position: absolute;
+justify-content: center;
+}
+.card-full a{
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding:15px;
+}
+
+.button-end{
+    background-color: rgb(88, 101, 242) ;
+    color: white;
+    margin-right: 30px;
 }
 
 .card-coral{
@@ -222,13 +251,20 @@ footer{
     font-size: 25px;
 }
 
+h1{
+    font-size: 64px;
+    color: white;
+    padding: 50px;
+}
+
 h2{
     font-size: 52px;
     margin-bottom: 30px;
 }
 
-h1{
-    font-size: 64px;
-    color: white;
-    padding: 50px;
+h3{
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    
 }
