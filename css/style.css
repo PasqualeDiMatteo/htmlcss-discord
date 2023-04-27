@@ -10,6 +10,7 @@
     --wid-l:600px;
     --wid-xl:800px;
     --pa-xl:50px;
+    --ma-2xl:200px;
 }
 
 body{
@@ -126,16 +127,25 @@ h1{
 }
 
 
-.card-dodgerblue{
+.card-large{
     min-height: var(--wid-m);
-    background-color: dodgerblue;
     flex-basis: 60%;
 }
 
-.card-pink{
+.card-small{
     min-height: var(--wid-m);
-    background-color: pink;
     flex-basis: 40%;
+    padding: 35px 70px;
+}
+
+h2{
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+.card-small p{
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .card-green{
@@ -203,5 +213,10 @@ footer{
 
 .pa-50{
     padding: var(--pa-xl) 0;
+
+}
+
+.ma-200{
+    margin-top: var(--ma-2xl)
 
 }
